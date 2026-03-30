@@ -94,6 +94,7 @@ If certain information is not available in the paper, respond with: "Insufficien
 Ensure the summary is clear, accurate, and aligned with the provided style and length.
 """,
     input_variables=['paper_input', 'style_input', 'length_input']
+    validate_template=True
 )
 
 # --- Execution Logic ---
